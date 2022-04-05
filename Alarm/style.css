@@ -1,0 +1,75 @@
+h1{
+  color: white;
+  text-align: center;
+}
+.in{
+  width: 6%;
+  height: 70px;
+}
+.al{
+  font-size: 4rem;
+}
+p{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #FBF8F1;
+}
+h2{
+  text-align: center;
+  font-size: 2rem;
+  color: #827397;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: #2C394B;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30%;
+}
+
+#clock {
+
+  font-family: 'Oswald', sans-serif;
+    font-size: 7rem;
+    background-image: linear-gradient(180deg,
+        rgba(200,25,100,22) 100%,
+        rgba(51,197,142,1) 100%,
+        rgba(39,97,116,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm {
+    background-color: #516BEB;
+}
+
+.clear-alarm {
+    background-color: #FF6363;
+}

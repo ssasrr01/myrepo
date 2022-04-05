@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Merriweather:wght@700&family=Oswald:wght@300&family=Patua+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+</head>
+<body>
+  <section id="top">
+    <div class="row">
+
+          <h1 class="al">Health Alarm   <img class="in" src="im/alarm.png" alt=""></h1>
+          <p>It is easy to set and reminds you to take your medications </p>
+          <p> on the hour with a loud beeping alarm.</p>
+          <br>
+          <h2>Click set button to set alarm.</h2>
+          <h2>Click clear button to end alarm.</h2>
+    </div>
+  </section>
+  <section id="middle">
+
+  </section>
+    <section class="container">
+        <div id="clock"></div>
+        <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local">
+        <br>
+        <div class="controls">
+            <button onclick="setAlarm()" class="button set-alarm">Set alarm</button>
+            <button onclick="clearAlarm()" class="button clear-alarm">Clear alarm</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

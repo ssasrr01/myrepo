@@ -1,0 +1,167 @@
+
+
+#description {
+    background-image: url(img/a6.jpg);
+    padding-bottom: 4%;
+  }
+
+  #facts {
+    background-color: #B6C9F0;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+  }
+
+  #quote {
+    background-image: url(img/11.webp);
+    padding: 10% 2% 2% 20%;
+  }
+
+  #about {
+    background-color: #C9CCD5;
+    padding-bottom: 2%;
+  }
+
+  #bottom {
+    background-color: #4C4C6D;
+    padding-left: 11%;
+    padding-bottom: 1%;
+  }
+
+  .head {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .rt {
+    text-align: center;
+    margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  }
+
+  .demo {
+    text-align: center;
+  }
+
+  .fact1 {
+    width: 280px;
+    height: 150px;
+  }
+
+  h1 {
+    font-family: 'Merriweather', serif;
+  }
+
+  .text {
+    font-family: 'Merriweather', serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #21325E;
+  }
+
+  .rd {
+    padding-left: 10%;
+  }
+
+  .im {
+    width: 33%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 35%;
+    ;
+    border-radius: 10px;
+  }
+  .lt{
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .navb {
+    color: white;
+  }
+
+  .pic {
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+  }
+
+  .pic1 {
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+  }
+
+  .pic2 {
+    width: 25%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+  }
+
+  .pic3 {
+    width: 25%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+  }
+
+  .bot {
+    width: 18%;
+    height: 34%;
+    margin-top: 1%;
+    border-radius: 90%;
+    border-color: white;
+    border-style: solid;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    cursor: pointer;
+  }
+
+  .oon {
+    margin-left: 20px;
+  }
+
+  .on {
+    margin-left: 4%;
+  }
+
+  .onn {
+    margin-left: 20px;
+  }
+
+  .last {
+    line-height: 0.2;
+    color: white;
+    font-family: 'EB Garamond', serif;
+  }
+
+  .second {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .at {
+    line-height: 1;
+    color: #404B69;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .text1 {
+    margin-top: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #404B69;
+  }
+
+  .row {
+    padding: 3% 0 0 0;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
